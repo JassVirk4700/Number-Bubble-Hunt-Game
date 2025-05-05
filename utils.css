@@ -1,0 +1,25 @@
+.bubble {
+        width: 60px;
+        color: white;
+        height: 60px;
+        border-radius: 50%;
+        background-color: rgb(48, 139, 75);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+}
+
+.bubble:hover {
+    background-color: rgb(35, 249, 60);
+    cursor: pointer;
+  }
+  
+@media screen and (max-width: 450px) {
+    .bubble {
+        width: 45px;
+        height: 45px;
+        font-weight: 800;
+    }
+    
+}

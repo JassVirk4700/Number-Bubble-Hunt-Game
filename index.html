@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no>
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <div id="main"> 
+        <img id="bg-image" src="\src\img\bg_image.webp" alt="Background missing!!">
+        <img id="title-image" src="\src\img\title.png" alt="Number Bubble Hunt">
+        <div id="main-panel" class="">
+                <div id="ptop">
+                    <div class="element">
+                        <h2>Hit</h2>
+                        <div id="hitVal"class="box"></div>
+                    </div>
+                    <div class="element">
+                        <h2>Timer</h2>
+                        <div id="timerVal" class="box">60</div>
+                    </div>
+                    <div class="element">
+                        <h2>Score</h2>
+                        <div id="scoreVal" class="box">0</div>
+                    </div>
+                    <div class="skip" id="skipButton">Skip</div>
+                </div>
+                <div id="pbtm">
+                    <div id="retry_btn">Retry</div>
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
